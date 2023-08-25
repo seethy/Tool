@@ -1,0 +1,9 @@
+directories:
+  mirror_module_path: True
+  output: d:\cauchy\manim
+
+tex:
+  executable: "xelatex -no-pdf"
+  template_file: "ctex_template.tex"
+  intermediate_filetype: "xdv"
+  text_to_replace: "[tex_expression]"
